@@ -1,0 +1,9 @@
+dataset,method,acc_mean,acc_std,energy_nJ,speedup_vs_fp32
+MNIST,FP32,97.95,0.03,1079.9,1.0
+MNIST,INT8,97.95,0.04,70.43,15.3
+MNIST,static-MP,97.69,0.19,35.25,30.6
+MNIST,PACE,97.68,0.12,41.32+/-2.47,26.1
+Fashion-MNIST,FP32,88.66,0.30,1079.9,1.0
+Fashion-MNIST,INT8,88.63,0.33,70.43,15.3
+Fashion-MNIST,static-MP,88.12,0.66,36.21,29.8
+Fashion-MNIST,PACE,88.37,0.37,57.23+/-2.67,18.9

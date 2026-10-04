@@ -1,0 +1,23 @@
+{
+  "model": "vit4",
+  "dataset": "fmnist",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "patch": 7,
+  "dim": 64,
+  "depth": 4,
+  "heads": 4,
+  "mlp_ratio": 2,
+  "epochs": 8,
+  "batch_size": 256,
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "weight_decay": 0.05,
+  "warmup_epochs": 1,
+  "schedule": "linear warm-up then cosine decay to 0",
+  "shift_pad": 2,
+  "augmentation": "random translation by up to 2 px (zero padding), no flip"
+}

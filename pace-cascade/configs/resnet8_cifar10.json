@@ -1,0 +1,24 @@
+{
+  "model": "resnet8",
+  "dataset": "cifar10 (GitHub JPEG mirror, see data/README.md)",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n_val": 5000,
+  "n_cal": 2000,
+  "epochs": 4,
+  "batch_size": 256,
+  "optimizer": "sgd_nesterov",
+  "lr": 0.2,
+  "momentum": 0.9,
+  "nesterov": true,
+  "weight_decay": 0.0005,
+  "warmup_epochs": 1,
+  "schedule": "linear warm-up then cosine decay to 0",
+  "augmentation": "random crop (4-px zero padding) + horizontal flip",
+  "input_scaling": "pixels / 255 in [0,1]; no mean subtraction (BN after the stem)",
+  "lr_note": "linear scaling rule: 0.1 per 128 images",
+  "note": "4 epochs: single-CPU compute budget"
+}

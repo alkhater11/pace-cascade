@@ -1,0 +1,158 @@
+{
+  "mnist": {
+    "compute-bound (mu=0)": {
+      "mu": 0.0,
+      "switch_pJ": 50.0,
+      "static_cfg": [
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "C_lo": [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "static_nJ": 35.25,
+      "pace_nJ": 41.11,
+      "pace_acc": 0.9766,
+      "pace_esc": 0.1562,
+      "gap_nJ": 5.86,
+      "pace_dominated": true
+    },
+    "memory-augmented (mu=0.15)": {
+      "mu": 0.15,
+      "switch_pJ": 50.0,
+      "static_cfg": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "C_lo": [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "static_nJ": 181.9,
+      "pace_nJ": 225.95,
+      "pace_acc": 0.9766,
+      "pace_esc": 0.1562,
+      "gap_nJ": 44.05,
+      "pace_dominated": true
+    }
+  },
+  "fmnist": {
+    "compute-bound (mu=0)": {
+      "mu": 0.0,
+      "switch_pJ": 50.0,
+      "static_cfg": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "C_lo": [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "static_nJ": 36.21,
+      "pace_nJ": 57.33,
+      "pace_acc": 0.8838,
+      "pace_esc": 0.3762,
+      "gap_nJ": 21.12,
+      "pace_dominated": true
+    },
+    "memory-augmented (mu=0.15)": {
+      "mu": 0.15,
+      "switch_pJ": 50.0,
+      "static_cfg": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "C_lo": [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "static_nJ": 182.36,
+      "pace_nJ": 325.03,
+      "pace_acc": 0.8854,
+      "pace_esc": 0.4355,
+      "gap_nJ": 142.67,
+      "pace_dominated": true
+    }
+  }
+}

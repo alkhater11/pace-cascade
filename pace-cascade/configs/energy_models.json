@@ -1,0 +1,11 @@
+{
+  "_doc": "Per-MAC energy models e(b,t) in pJ, beta=b-t (effective width). kind=poly: a0+a1*beta+a2*beta^2+aE*2^beta+mu*b; dvafs: (a0+a2*beta^2)*(V(beta)/V(8))^2 with V=v0+v1*beta/8; family: e8*[phi+(1-phi)*g(beta)/g(8)]; flat: e8. All models give e(8,0) close to 0.3 pJ so absolute scales are comparable; conclusions depend only on energy ratios (Proposition 4).",
+  "H0": {"name": "Bit-parallel array MAC, fixed 32-bit accumulator (45 nm; main text)", "kind": "poly", "a0": 0.1, "a2": 0.003125, "basis": "Horowitz (2014): 8-bit mult 0.2 pJ, 32-bit add 0.1 pJ; multiplier energy quadratic in width"},
+  "H1": {"name": "Array MAC, precision-scaled accumulator", "kind": "poly", "a0": 0.03125, "a1": 0.00625, "a2": 0.003125, "basis": "accumulator width 2*beta+10 bits, adder energy linear in width (0.1 pJ per 32 bits)"},
+  "H2": {"name": "Bit-serial datapath", "kind": "poly", "a1": 0.0375, "basis": "Stripes/UNPU-style: energy proportional to the number of serial bit cycles; e(8)=0.3 pJ"},
+  "H3": {"name": "Memory-augmented (operand fetch)", "kind": "poly", "a0": 0.1, "a2": 0.003125, "mu": 0.15, "basis": "R1 model: H0 + 0.15 pJ per operand bit fetched; truncation does not reduce fetch energy"},
+  "H4": {"name": "Voltage-accuracy-scaled array MAC (DVAFS-like)", "kind": "dvafs", "a0": 0.1, "a2": 0.003125, "v0": 0.6, "v1": 0.4, "basis": "supply lowered linearly from 1.0 V at 8 bits towards 0.6 V as the critical path shortens; dynamic energy ~ V^2"},
+  "H5": {"name": "Analog in-memory MAC, ADC-dominated", "kind": "poly", "a0": 0.03, "aE": 0.00105469, "basis": "ADC energy doubles per bit of resolution (Walden figure of merit); fixed array/periphery share 10% at 8 bits"},
+  "H6": {"name": "Fixed-width INT8 SIMD datapath (CPU/MCU/GPU lanes)", "kind": "flat", "e8": 0.3, "basis": "sub-8-bit operands occupy full 8-bit lanes; no arithmetic saving below 8 bits"},
+  "family_grid": {"g": ["lin", "quad", "cubic", "exp"], "phi": [0.0, 0.05, 0.1, 0.2, 0.333, 0.5], "e8": 0.3}
+}

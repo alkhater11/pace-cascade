@@ -1,0 +1,6 @@
+# tested with Python 3.12 on Linux x86-64 (single CPU core)
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.8
+pillow==12.1.1        # only for decoding the CIFAR-10 JPEG mirror
+jax[cpu]==0.11.2      # only for training ResNet-8 and ViT-4 (deepnets.py)

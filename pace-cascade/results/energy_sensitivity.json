@@ -1,0 +1,416 @@
+{
+  "mnist": {
+    "C_lo": [
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "C_hi": [
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        0
+      ]
+    ],
+    "static_cfg": [
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "p_esc": 0.15924,
+    "rows": [
+      {
+        "mu": 0.0,
+        "switch_pJ": 0.0,
+        "static_nJ": 35.25,
+        "pace_nJ": 41.32,
+        "gap_nJ": 6.07,
+        "pace_dominated": true,
+        "fp32_nJ": 1079.9,
+        "static_vs_fp32": 30.6
+      },
+      {
+        "mu": 0.0,
+        "switch_pJ": 10.0,
+        "static_nJ": 35.25,
+        "pace_nJ": 41.32,
+        "gap_nJ": 6.07,
+        "pace_dominated": true,
+        "fp32_nJ": 1079.9,
+        "static_vs_fp32": 30.6
+      },
+      {
+        "mu": 0.0,
+        "switch_pJ": 50.0,
+        "static_nJ": 35.25,
+        "pace_nJ": 41.33,
+        "gap_nJ": 6.08,
+        "pace_dominated": true,
+        "fp32_nJ": 1079.9,
+        "static_vs_fp32": 30.6
+      },
+      {
+        "mu": 0.0,
+        "switch_pJ": 200.0,
+        "static_nJ": 35.25,
+        "pace_nJ": 41.35,
+        "gap_nJ": 6.1,
+        "pace_dominated": true,
+        "fp32_nJ": 1079.9,
+        "static_vs_fp32": 30.6
+      },
+      {
+        "mu": 0.15,
+        "switch_pJ": 0.0,
+        "static_nJ": 246.33,
+        "pace_nJ": 227.03,
+        "gap_nJ": -19.3,
+        "pace_dominated": false,
+        "fp32_nJ": 2206.7,
+        "static_vs_fp32": 9.0
+      },
+      {
+        "mu": 0.15,
+        "switch_pJ": 10.0,
+        "static_nJ": 246.33,
+        "pace_nJ": 227.03,
+        "gap_nJ": -19.3,
+        "pace_dominated": false,
+        "fp32_nJ": 2206.7,
+        "static_vs_fp32": 9.0
+      },
+      {
+        "mu": 0.15,
+        "switch_pJ": 50.0,
+        "static_nJ": 246.33,
+        "pace_nJ": 227.04,
+        "gap_nJ": -19.3,
+        "pace_dominated": false,
+        "fp32_nJ": 2206.7,
+        "static_vs_fp32": 9.0
+      },
+      {
+        "mu": 0.15,
+        "switch_pJ": 200.0,
+        "static_nJ": 246.33,
+        "pace_nJ": 227.06,
+        "gap_nJ": -19.27,
+        "pace_dominated": false,
+        "fp32_nJ": 2206.7,
+        "static_vs_fp32": 9.0
+      },
+      {
+        "mu": 0.3125,
+        "switch_pJ": 0.0,
+        "static_nJ": 475.01,
+        "pace_nJ": 428.21,
+        "gap_nJ": -46.79,
+        "pace_dominated": false,
+        "fp32_nJ": 3427.4,
+        "static_vs_fp32": 7.2
+      },
+      {
+        "mu": 0.3125,
+        "switch_pJ": 10.0,
+        "static_nJ": 475.01,
+        "pace_nJ": 428.22,
+        "gap_nJ": -46.79,
+        "pace_dominated": false,
+        "fp32_nJ": 3427.4,
+        "static_vs_fp32": 7.2
+      },
+      {
+        "mu": 0.3125,
+        "switch_pJ": 50.0,
+        "static_nJ": 475.01,
+        "pace_nJ": 428.22,
+        "gap_nJ": -46.79,
+        "pace_dominated": false,
+        "fp32_nJ": 3427.4,
+        "static_vs_fp32": 7.2
+      },
+      {
+        "mu": 0.3125,
+        "switch_pJ": 200.0,
+        "static_nJ": 475.01,
+        "pace_nJ": 428.25,
+        "gap_nJ": -46.76,
+        "pace_dominated": false,
+        "fp32_nJ": 3427.4,
+        "static_vs_fp32": 7.2
+      },
+      {
+        "mu": 0.625,
+        "switch_pJ": 0.0,
+        "static_nJ": 914.77,
+        "pace_nJ": 815.11,
+        "gap_nJ": -99.66,
+        "pace_dominated": false,
+        "fp32_nJ": 5774.9,
+        "static_vs_fp32": 6.3
+      },
+      {
+        "mu": 0.625,
+        "switch_pJ": 10.0,
+        "static_nJ": 914.77,
+        "pace_nJ": 815.11,
+        "gap_nJ": -99.66,
+        "pace_dominated": false,
+        "fp32_nJ": 5774.9,
+        "static_vs_fp32": 6.3
+      },
+      {
+        "mu": 0.625,
+        "switch_pJ": 50.0,
+        "static_nJ": 914.77,
+        "pace_nJ": 815.12,
+        "gap_nJ": -99.65,
+        "pace_dominated": false,
+        "fp32_nJ": 5774.9,
+        "static_vs_fp32": 6.3
+      },
+      {
+        "mu": 0.625,
+        "switch_pJ": 200.0,
+        "static_nJ": 914.77,
+        "pace_nJ": 815.14,
+        "gap_nJ": -99.63,
+        "pace_dominated": false,
+        "fp32_nJ": 5774.9,
+        "static_vs_fp32": 6.3
+      }
+    ]
+  },
+  "fmnist": {
+    "C_lo": [
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "C_hi": [
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        0
+      ]
+    ],
+    "static_cfg": [
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ]
+    ],
+    "p_esc": 0.375,
+    "rows": [
+      {
+        "mu": 0.0,
+        "switch_pJ": 0.0,
+        "static_nJ": 36.21,
+        "pace_nJ": 57.23,
+        "gap_nJ": 21.02,
+        "pace_dominated": true,
+        "fp32_nJ": 1079.9,
+        "static_vs_fp32": 29.8
+      },
+      {
+        "mu": 0.0,
+        "switch_pJ": 10.0,
+        "static_nJ": 36.21,
+        "pace_nJ": 57.24,
+        "gap_nJ": 21.02,
+        "pace_dominated": true,
+        "fp32_nJ": 1079.9,
+        "static_vs_fp32": 29.8
+      },
+      {
+        "mu": 0.0,
+        "switch_pJ": 50.0,
+        "static_nJ": 36.21,
+        "pace_nJ": 57.25,
+        "gap_nJ": 21.04,
+        "pace_dominated": true,
+        "fp32_nJ": 1079.9,
+        "static_vs_fp32": 29.8
+      },
+      {
+        "mu": 0.0,
+        "switch_pJ": 200.0,
+        "static_nJ": 36.21,
+        "pace_nJ": 57.31,
+        "gap_nJ": 21.09,
+        "pace_dominated": true,
+        "fp32_nJ": 1079.9,
+        "static_vs_fp32": 29.8
+      },
+      {
+        "mu": 0.15,
+        "switch_pJ": 0.0,
+        "static_nJ": 182.36,
+        "pace_nJ": 304.11,
+        "gap_nJ": 121.74,
+        "pace_dominated": true,
+        "fp32_nJ": 2206.7,
+        "static_vs_fp32": 12.1
+      },
+      {
+        "mu": 0.15,
+        "switch_pJ": 10.0,
+        "static_nJ": 182.36,
+        "pace_nJ": 304.11,
+        "gap_nJ": 121.74,
+        "pace_dominated": true,
+        "fp32_nJ": 2206.7,
+        "static_vs_fp32": 12.1
+      },
+      {
+        "mu": 0.15,
+        "switch_pJ": 50.0,
+        "static_nJ": 182.36,
+        "pace_nJ": 304.12,
+        "gap_nJ": 121.76,
+        "pace_dominated": true,
+        "fp32_nJ": 2206.7,
+        "static_vs_fp32": 12.1
+      },
+      {
+        "mu": 0.15,
+        "switch_pJ": 200.0,
+        "static_nJ": 182.36,
+        "pace_nJ": 304.18,
+        "gap_nJ": 121.82,
+        "pace_dominated": true,
+        "fp32_nJ": 2206.7,
+        "static_vs_fp32": 12.1
+      },
+      {
+        "mu": 0.3125,
+        "switch_pJ": 0.0,
+        "static_nJ": 340.69,
+        "pace_nJ": 571.55,
+        "gap_nJ": 230.86,
+        "pace_dominated": true,
+        "fp32_nJ": 3427.4,
+        "static_vs_fp32": 10.1
+      },
+      {
+        "mu": 0.3125,
+        "switch_pJ": 10.0,
+        "static_nJ": 340.69,
+        "pace_nJ": 571.56,
+        "gap_nJ": 230.86,
+        "pace_dominated": true,
+        "fp32_nJ": 3427.4,
+        "static_vs_fp32": 10.1
+      },
+      {
+        "mu": 0.3125,
+        "switch_pJ": 50.0,
+        "static_nJ": 340.69,
+        "pace_nJ": 571.57,
+        "gap_nJ": 230.88,
+        "pace_dominated": true,
+        "fp32_nJ": 3427.4,
+        "static_vs_fp32": 10.1
+      },
+      {
+        "mu": 0.3125,
+        "switch_pJ": 200.0,
+        "static_nJ": 340.69,
+        "pace_nJ": 571.63,
+        "gap_nJ": 230.93,
+        "pace_dominated": true,
+        "fp32_nJ": 3427.4,
+        "static_vs_fp32": 10.1
+      },
+      {
+        "mu": 0.625,
+        "switch_pJ": 0.0,
+        "static_nJ": 645.17,
+        "pace_nJ": 1085.87,
+        "gap_nJ": 440.7,
+        "pace_dominated": true,
+        "fp32_nJ": 5774.9,
+        "static_vs_fp32": 9.0
+      },
+      {
+        "mu": 0.625,
+        "switch_pJ": 10.0,
+        "static_nJ": 645.17,
+        "pace_nJ": 1085.88,
+        "gap_nJ": 440.7,
+        "pace_dominated": true,
+        "fp32_nJ": 5774.9,
+        "static_vs_fp32": 9.0
+      },
+      {
+        "mu": 0.625,
+        "switch_pJ": 50.0,
+        "static_nJ": 645.17,
+        "pace_nJ": 1085.89,
+        "gap_nJ": 440.72,
+        "pace_dominated": true,
+        "fp32_nJ": 5774.9,
+        "static_vs_fp32": 9.0
+      },
+      {
+        "mu": 0.625,
+        "switch_pJ": 200.0,
+        "static_nJ": 645.17,
+        "pace_nJ": 1085.95,
+        "gap_nJ": 440.77,
+        "pace_dominated": true,
+        "fp32_nJ": 5774.9,
+        "static_vs_fp32": 9.0
+      }
+    ]
+  }
+}

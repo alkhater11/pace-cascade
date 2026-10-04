@@ -1,0 +1,12 @@
+{
+  "model": "SmallCNN (R1 generality study, Section 8.3)",
+  "architecture": "conv3x3(1->8)-ReLU-maxpool2 / conv3x3(8->16)-ReLU-maxpool2 / fc(400->64)-ReLU / fc(64->10)",
+  "macs_per_image": 214304,
+  "seeds": [0, 1, 2],
+  "train_subset": 20000,
+  "epochs": 8, "batch_size": 128, "optimizer": "adam", "lr": 0.001, "weight_decay": 0.0,
+  "options": [[8, 0], [6, 0], [4, 1]],
+  "n_configs": 81,
+  "enumeration_validation_subset": 1500,
+  "note": "configurations are ranked on the first 1,500 validation images; selected configurations are evaluated on the full 10,000-image test set"
+}

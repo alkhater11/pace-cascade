@@ -1,0 +1,28 @@
+{
+  "model": "mlp",
+  "sizes": [
+    784,
+    256,
+    128,
+    10
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "datasets": [
+    "mnist",
+    "fmnist"
+  ],
+  "epochs": 15,
+  "batch_size": 128,
+  "optimizer": "adam",
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "split": "first 50,000 training images for training, last 10,000 for validation, standard 10,000 test; calibration = first 2,000 training images",
+  "init": "He normal",
+  "note": "weight_decay is 0 in the released code (the R1 manuscript erroneously stated 1e-4)"
+}

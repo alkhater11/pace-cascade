@@ -1,0 +1,25 @@
+{
+  "model": "mlp_narrow",
+  "sizes": [
+    784,
+    32,
+    10
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "datasets": [
+    "mnist",
+    "fmnist"
+  ],
+  "epochs": 15,
+  "batch_size": 128,
+  "optimizer": "adam",
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "purpose": "cheap arm of the width-and-precision (capacity) cascade, Section 9.3"
+}
